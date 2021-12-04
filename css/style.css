@@ -1,0 +1,34 @@
+html {
+    background-color: black;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 375px;
+    height: 812px;
+    background-color: #fffded;
+}
+
+footer {
+    background-color: #FFB17A;
+    position: fixed;
+    bottom: 0px;
+
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0px;
+}
