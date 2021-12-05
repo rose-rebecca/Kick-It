@@ -15,6 +15,7 @@ body {
     width: 375px;
     height: 812px;
     background-color: #fffded;
+    font-family: 'Spartan', sans-serif;
 }
 
 footer {
@@ -32,4 +33,12 @@ footer ul {
 footer li {
     display: inline-block;   
     justify-content: space-between;
+}
+
+/* Support page*/
+button {
+background-color: #FFB17A;
+color: ivory;
+justify-content: space-around;
+padding: 10px;
 }
