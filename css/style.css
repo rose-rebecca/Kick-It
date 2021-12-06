@@ -18,6 +18,110 @@ body {
     font-family: 'Spartan', sans-serif;
 }
 
+/* Homepage */
+
+.timer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.streak {
+    padding: 20px;
+}
+
+.streakGrid {
+    display: grid;
+    width: 350px;
+    grid-template-columns: 69% 31%;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-areas: 
+    "currentStreak daystreak"
+    "currentGoal daygoal"
+    "longestStreak daylong";
+}
+
+.currentStreak, .currentGoal, .longestStreak {
+    grid-area: auto;
+}
+
+.currentStreak, .currentGoal, .longestStreak, .daystreak, .daygoal, .daylong {
+    padding: 10px;
+}
+.daystreak, .daygoal, .daylong{
+    grid-area: auto;
+    text-align: end;
+}
+
+#tips {
+    text-align: center;
+}
+
+/*Community Page*/
+
+
+
+
+
+
+
+
+.minmatic, .robert, .johnmayer, .bigdog {
+    max-width: 100%;
+    
+}
+
+.community-content {
+    overflow: scroll;
+    max-width: 100%;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+.flex {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.badge-history {
+    justify-content:left;
+}
+
+.settings {
+    justify-content: flex-start;
+}
+
+/* Profile Page */
+.profile-pic {
+    display: flex;
+    width: 227px;
+    height: 181px;
+    left: -5px;
+    top: 70px;
+}
+
+header h1 {
+    display: inline;
+}
+
+/* Support page*/
+
+.support-page {
+    margin-top: 45px;
+}
+button {
+background-color: #FFB17A;
+color: ivory;
+justify-content: space-around;
+padding: 10px;
+margin-top: 20px;
+width: 350px;
+border-radius: 10px;
+
+}
+
+/* Navigation bar */
+
 footer {
     background-color: #FFB17A;
     bottom: 0px;
@@ -33,31 +137,4 @@ footer ul {
 footer li {
     display: inline-block;   
     justify-content: space-between;
-}
-
-/* Support page*/
-button {
-background-color: #FFB17A;
-color: ivory;
-justify-content: space-around;
-padding: 10px;
-}
-
-
-
-#meditation-box {
-    display: flex;
-    align-items: flex-end;
-}
-
-.minmatic, .robert, .johnmayer, .bigdog {
-    max-width: 100%;
-    
-}
-
-.community-content {
-    overflow: scroll;
-    max-width: 100%;
-    padding-right: 10px;
-    margin: 10px;
 }
