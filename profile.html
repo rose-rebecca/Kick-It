@@ -38,44 +38,64 @@
 </head>
 
 <body>
-<div class="container">
-<header>
-	<div class="profile-pic">
-		<img src="images/profile-logo.png">
-	</div>
-	<h1>JohnDoe123</h1>
-	<p>Joined 2/31/2018</p>
 
+<div class="profile-header">
+<header>
+	
+	<div class="profile-pic" id="pic">
+		<img src="images/profile icon.png">
+	</div>
+	<div class="profile-info">
+		<h2 style="margin-bottom: 5px;">JohnDoe123</h2>
+		<p style="margin-top: 5px;">Joined 2/31/2018</p>
+	</div>
+	
 </header>
 </div>
-	<div class="profile-info">
-	
-	</div>
 
-<!--leave room here for 1 row 2 columns (badge history/settings)-->
-<div id="column" class="flex">
-	<div class="badge-history">
+
+<div class="row">
+	<div class="column1">
 		Badge History
 	</div>
-	<div class="settings">
+	<div class="column2">
 		Settings
 	</div>
 </div>
 
 <!--badge history-->
-<div class="no-alcohol">
+<section class="badgeHistory" id="badges">
+<div class="badgeGrid">
+
+<div class="badge1">
 	<img src="images/90-day-badge.png">
-	<h3>90 Days Without Alcohol</h3>
-	<p>Completed on 9/12/21</p>
+</div>
+	
+<div class="details1">
+<h4 class="detailheader">90 Days Without Alcohol</h4>
+	<p class="completion">Completed on 9/12/21</p>
 </div>
 
-<div class="no-nicotine">
-	<img src="images/30 days no nicotine.png">
+<div class="badge2">
+	<img src="images/30-day-badge.png">
+</div>
+<div class="details2">
+	<h4 class="detailheader">30 Days Without Nicotine</h4>
+	<p class="completion">Completed on 4/22/19</p>
+</div>
+<div class="badge3">
+	<img src="images/7-day-badge.png">
+</div>
+<div class="details3">
+	<h4 class="detailheader">7 Days Without Junk Food</h4>
+	<p class="completion">Completed on 7/8/20</p>
 </div>
 
-<div class="no-junkfood">
-	<img src="images/7 days no junk food.png">
+
+
 </div>
+</section>
+
 
 	<footer>
 		<ul>

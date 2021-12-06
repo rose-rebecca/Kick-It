@@ -59,17 +59,6 @@ body {
 /*Community Page*/
 
 
-
-
-
-
-
-
-.minmatic, .robert, .johnmayer, .bigdog {
-    max-width: 100%;
-    
-}
-
 .community-content {
     overflow: scroll;
     max-width: 100%;
@@ -77,31 +66,77 @@ body {
     margin: 10px;
 }
 
-.flex {
-    display: inline-flex;
-    flex-direction: row;
-    width: 100%;
-}
 
-.badge-history {
-    justify-content:left;
-}
 
-.settings {
-    justify-content: flex-start;
-}
+
 
 /* Profile Page */
-.profile-pic {
-    display: flex;
-    width: 227px;
-    height: 181px;
-    left: -5px;
-    top: 70px;
+
+.profile-header {
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
-header h1 {
-    display: inline;
+#pic {
+    float: left;
+}
+
+.profile-info {
+padding-top: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.column1, .column2 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 30px;
+    height: 20px;
+}
+
+.column1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    line-height: 19px;
+    font-weight: bolder;
+}
+
+.column2 {
+    padding-bottom: 10px;
+}
+
+.badgeGrid {
+ display: grid;
+ grid-template-columns: 25% 75%;
+ grid-template-rows: 100px 100px 100px;
+grid-template-areas: 
+"badge1 details1"
+"badge2 details2"
+"badge3 details3";
+}
+
+.badge1, .badge2, .badge3 {
+    grid-area: auto;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.badge1, .badge2, .badge3, .details1, .details2, .details3 {
+    padding: 20px;
+}
+
+.detailheader {
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.completion {
+    margin-top: 8px;
 }
 
 /* Support page*/
