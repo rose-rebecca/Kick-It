@@ -59,14 +59,13 @@ body {
 /*Community Page*/
 
 
+
 .community-content {
     overflow: scroll;
     max-width: 100%;
-    padding-right: 10px;
-    margin: 10px;
+    width: 350px;
+    padding-right: 20px;
 }
-
-
 
 
 
@@ -144,6 +143,7 @@ grid-template-areas:
 .support-page {
     margin-top: 45px;
 }
+
 button {
 background-color: #FFB17A;
 color: ivory;
@@ -172,4 +172,106 @@ footer ul {
 footer li {
     display: inline-block;   
     justify-content: space-between;
+}
+
+/* Onboarding */
+
+
+.username {
+    background-color: ivory;
+    color: lightgray;
+    text-align: start;
+    width: 326px;
+    height: 46px;
+    border-radius: 3px;
+}
+
+.privacy-statement {
+    margin-top: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.johndoe {
+    background-color: ivory;
+    color: black;
+    text-align: start;
+    font-family: 'Spartan', sans-serif;
+    width: 326px;
+    height: 46px;
+    border-radius: 3px;
+}
+.continue-button1, .continue-button2, .continue-button3 {
+    width: 148px;
+    padding: 10px 36px 9px;
+    position: absolute;
+    height: 37px;
+    left: calc(50% - 148px/2);
+    top: 606px;
+    border-radius: 3px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.dots1 {
+    position: absolute;
+    width: 94px;
+    height: 16px;
+    left: 142px;
+    top: 716px;
+}
+
+.dots2 {
+    position: absolute;
+    width: 94px;
+    height: 16px;
+    left: 142px;
+    top: 716px;
+}
+
+.dots3 {
+    position: absolute;
+    width: 94px;
+    height: 16px;
+    left: 142px;
+    top: 716px;
+}
+
+
+/* Dropdown Menu */
+
+label {
+    display: inline-block;
+    margin-top: 250px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+#habits {
+    background-color: ivory;
+    font-family: 'Spartan', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+/* ob4 */
+
+.how-many-days {
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.day-options {
+margin: 20px;
+}
+
+.days7, .days30, .days90 {
+border-radius: 3px;
+font-family: 'Spartan', sans-serif;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
