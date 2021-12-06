@@ -43,120 +43,21 @@ justify-content: space-around;
 padding: 10px;
 }
 
-/*circle timer*/
-#bg {
-    width: 375px;
-    height: 375px;
-    background: var(--bg-color);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#cover {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-#circle {
-    border: 5px solid var(--circle-color);
-    width: 190px;
-    height: 190px;
-    border-radius: 50%;
-}
-
-:root {
-    --bg-color: ivory;
-    --circle-color: #00c307;
-}
-
-
-#box1, #box2, #box3, #box4 {
-    width: 100px;
-    height: 100px;
-    background: var(--bg-color);
-    position: absolute;
-}
-
-#box1 {
-    right: 0;
-    top: 0;
-    transform-origin: bottom left;
-    transition: transform linear 20s;
-    transform: rotate(360deg);
-    z-index: 7;
-}
-
-#circle-timer {
-    width: 10px;
-    height: 10px;
-    z-index:20;
-    background: var(--circle-color);
-    border-radius: 50%;
-    position: absolute;
-    top: -2px;
-    left: -1px;
-    animation: do2 0.5s 19.9s forwards;
-}
-
-#box2 {
-    right: 0;
-    bottom: 0;
-    transform-origin: top left;
-    transition: transform 15s linear 5s;
-    transform: rotate(270deg);
-
-}
-
-#box3 {
-    left: 0;
-    bottom: 0;
-    transform-origin: top right;
-    transition: transform 10s linear 10s;
-    transform: rotate(180deg);
-}
-
-#box4 {
-    left: 0;
-    top: 0;
-    transform-origin: bottom right;
-    transition: transform 5s linear 15s;
-    transform: rotate(90deg);
-}
-
-#circle2 {
-    border: 5px solid var(--circle-color);
-    width: 95px;
-    height: 190px;
-    position: absolute;
-    top: 0;
-    border-top-right-radius:  195px;
-    border-bottom-right-radius: 195px;
-    border-left: 0;
-    transform: translate(100px);
-    z-index: 9;
-    animation: do 0s 11s forwards;
-    opacity: 0;
-}
-
-@keyframes do {
-    0% {opacity: 0;}
-    100% {opacity: 1}
-}
-@keyframes d02 {
-    0% {opacity: 1}
-    100% {opacity: 0}
-}
 
 #meditation-box {
     display: flex;
     align-items: flex-end;
 }
 
-.hotline {
-    width: 80px;
+.minmatic, .robert, .johnmayer, .bigdog {
+    max-width: 100%;
+    
+}
+
+.community-content {
+    overflow: scroll;
+    max-width: 100%;
+    padding-right: 10px;
+    margin: 10px;
 }
