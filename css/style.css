@@ -328,6 +328,10 @@ label {
 margin: 20px;
 }
 
+.days7:focus, .days30:focus, .days90:focus {
+    background-color: #f6802c;
+}
+
 .days7, .days30, .days90 {
 border-radius: 3px;
 font-family: 'Spartan', sans-serif;
